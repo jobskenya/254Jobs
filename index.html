@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EarnKsh - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+  <div class="container mx-auto px-4 pb-16">
+    <!-- Header -->
+    <header class="py-6">
+      <h1 class="text-3xl font-bold text-center text-blue-800">EarnKsh</h1>
+      <p class="text-center text-gray-600 mt-2">Share links and earn money in Kenya</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-6 md:mb-0">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">Earn Ksh 100 per share!</h2>
+          <p class="text-gray-600 mb-6">Simply share affiliate links on WhatsApp or Facebook and get paid for every click.</p>
+          <a href="jobs.html" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-block">
+            Start Earning Now
+          </a>
+        </div>
+        <div class="md:w-1/2">
+          <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+               alt="Earning money" 
+               class="rounded-lg shadow-md w-full">
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-center text-gray-800 mb-8">How It Works</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-user-plus text-blue-600 text-2xl"></i>
+          </div>
+          <h3 class="font-bold text-lg mb-2">1. Register</h3>
+          <p class="text-gray-600">Create your free account in seconds</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-share-alt text-blue-600 text-2xl"></i>
+          </div>
+          <h3 class="font-bold text-lg mb-2">2. Share Links</h3>
+          <p class="text-gray-600">Post affiliate links on social media</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-money-bill-wave text-blue-600 text-2xl"></i>
+          </div>
+          <h3 class="font-bold text-lg mb-2">3. Earn Money</h3>
+          <p class="text-gray-600">Get Ksh 100 for every share</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <nav class="fixed bottom-0 left-0 right-0 bg-white shadow-lg flex justify-around items-center p-3 border-t border-gray-200">
+    <a href="index.html" class="text-blue-600 flex flex-col items-center">
+      <i class="fas fa-home text-xl"></i>
+      <span class="text-xs mt-1">Home</span>
+    </a>
+    <a href="jobs.html" class="text-gray-500 flex flex-col items-center">
+      <i class="fas fa-briefcase text-xl"></i>
+      <span class="text-xs mt-1">Jobs</span>
+    </a>
+    <a href="profile.html" class="text-gray-500 flex flex-col items-center">
+      <i class="fas fa-user text-xl"></i>
+      <span class="text-xs mt-1">Profile</span>
+    </a>
+  </nav>
+
+  <script src="scripts/auth.js"></script>
+  <script src="animations.js"></script>
+</body>
+</html>
